@@ -1,1 +1,69 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
 
+/*/class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello,World!");
+    }
+}*/
+
+// -- DECLARING VARIABLES OF DIFF DATA TYPES
+    /* int - whole Number
+double - double precision of decimal number
+float - single precision of decimal number
+char - single character(single quotes)
+boolean - true or false
+string text of not primative */
+
+int age = 20 // double precision
+double price = 40.55 //single precision using 'f'
+float weight = 85.9 //single character
+char grade = 'A'; //single character
+boolean isStudent = true; // true or false
+string name = "alice"; // not primative text
+
+//--output using system.out.printIn--
+/*System.out.printIn("Name: "+name);
+System.out.printIn("Age: "+age);
+System.out.printIn("Price: "+price);
+System.out.printIn("Weight: "+weight);
+System.out.printIn("Grade: "+grade);
+System.out.printIn("Is Student: "+IsStudent);*/
+
+//---Getting Input using scanner---
+import java.util.Scanner;
+public class main {
+    public static void main(String[] args) {
+        System.out.printIn("\nEnter your city");
+        String userCity = scanner.next(); // reads one word(stops at whitespace)
+            System.out.printIn*("You live in:" + userCity);
+//--- Reading a full line(including space)____
+        scanner.nextline(); //clear tje leftover newline from previous
+        System.out.printIn("Enter a sentence about yourself"):
+        String fullsentence = scanner.nextline(); //read the enter line
+        System.out.printIn("You said: " + fullSentence);
+
+        scanner.close():
+    }
+}  
+
+// Operatiors and Expression (+, -, /, <, >, =<, !=, ||, %%)
+public class main {
+    public static void main(String[] args) {
+        int a = 10, b = 3;
+        System.out.printIn("a + b - "(a + b));
+        //output; a + b = 13
+        System.out.printIn("a - b = "(a - b))
+        //output; a - b = 7
+        System.out.printIn("a * b = "(a * b))
+        //output; a * b = 32
+        System.out.printIn("a / b = "(a / b))
+        //output; a / b = 3
+        System.out.printIn("a % b = "(a % b))
+        //output; a % b = 1
+
+        double x = 10, y = 3;
+        System.out.printIn("x + y ="(x / y));
+        //output; x / y = 33333335
+    }
+}
